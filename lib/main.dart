@@ -54,7 +54,7 @@ class _MyAppState extends State<MyApp> {
             ),
             body: Column(
               children: <Widget>[
-                ProductScreenTopPart()
+                ProductScreenTopPart(), ProductScreenBottomPart()
               ],
             )
 
@@ -130,6 +130,36 @@ class _ProductScreenTopPartState extends State<ProductScreenTopPart> {
                   ],
                 )
               ],
+            ),
+          )
+        ],
+      ),
+    );
+  }
+}
+
+
+class ProductScreenBottomPart extends StatefulWidget {
+  @override
+  _ProductScreenBottomPartState createState() => _ProductScreenBottomPartState();
+}
+
+class _ProductScreenBottomPartState extends State<ProductScreenBottomPart> {
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      width: double.infinity,
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: <Widget>[
+          Padding(
+            padding: EdgeInsets.only(left: screenAwareSize(18.0, context)),
+            child: Text(
+              "Product Description",
+              style: TextStyle(
+                  color: Color(0xFF949598),
+                  fontSize: screenAwareSize(10.0, context),
+                  fontFamily: "Montserrat-SemiBold"),
             ),
           )
         ],
