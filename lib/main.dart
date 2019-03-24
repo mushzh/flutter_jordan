@@ -80,7 +80,7 @@ class _ProductScreenTopPartState extends State<ProductScreenTopPart> {
           Stack(
             children: <Widget>[
               Container(
-                child: Image.asset("assets/images/jordan.jpg",
+                child: Image.asset("assets/images/adidas.png",
                     width: double.infinity,
                     height: double.infinity,
                     fit: BoxFit.cover),
@@ -126,7 +126,7 @@ class _ProductScreenTopPartState extends State<ProductScreenTopPart> {
                         style: TextStyle(color: Color(0xFFFFE600))),
                     SizedBox(width: screenAwareSize(5.0, context),),
                     Text("(378 People)",
-                        style: TextStyle(color: Colors.black, fontSize: 14.0))
+                        style: TextStyle(color: Colors.white, fontSize: 14.0))
                   ],
                 )
               ],
