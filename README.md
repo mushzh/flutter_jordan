@@ -1,3 +1,4 @@
+[![](https://img.shields.io/badge/flutter-study-orange.svg)](https://travis-ci.org/Alamofire/Alamofire)
 # flutter_jordan
 
 flutter Adidas Shoews App UIから.
